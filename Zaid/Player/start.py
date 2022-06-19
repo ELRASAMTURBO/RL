@@ -39,7 +39,7 @@ SPAM_TEXT = """
 \u2022 1↬ أولا ، اضفني الى مجموعتك
 \u2022 2↬ بعد ذالك قم برفعي كمشرف واعطائي صلاحيات مثل باقي البشر.
 \u2022 3↬ بعد ذالك اكتب .تحديث بيانات البوت
-\u2022 3↬ اضف سيدي ومولاي في مجموعتك او اكتب .انضم لدعوة المساعد
+\u2022 3↬ اضف سيدي ومولاي في مجموعتك @ZZ3Z6 او اكتب .انضم لدعوة المساعد
 \u2022 4↬ اذ لم تستطيع اضافة المساعد او واجهت مشاكل تحدث مع رئيس الوزراء  .
 """
 
@@ -49,7 +49,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/xcxxu"),
+                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/ZZ9Z5"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="users"),
             ],
             [
@@ -83,7 +83,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
             [
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
-                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/xcxxu")
+                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u")
+                InlineKeyboardButton("قناެة اެݪمطۅࢪ ❤️‍🔥", url=f"https://t.me/ZZ9Z5")             
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -178,7 +179,8 @@ async def start(client: Client, message: Message):
             
             [
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
-                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/xcxxu")
+                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u")
+                InlineKeyboardButton("قناެة اެݪمطۅࢪ ❤️‍🔥", url=f"https://t.me/ZZ9Z5")
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
