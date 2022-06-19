@@ -83,8 +83,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
             [
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
-                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u")
-                InlineKeyboardButton("قناެة اެݪمطۅࢪ ❤️‍🔥", url=f"https://t.me/ZZ9Z5")             
+                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u"),
+                InlineKeyboardButton("قناެة اެݪمطۅࢪ ❤️‍🔥", url=f"https://t.me/ZZ9Z5"),
+
+             
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -179,8 +181,10 @@ async def start(client: Client, message: Message):
             
             [
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
-                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u")
-                InlineKeyboardButton("قناެة اެݪمطۅࢪ ❤️‍🔥", url=f"https://t.me/ZZ9Z5")
+                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u"),
+                InlineKeyboardButton("قناެة اެݪمطۅࢪ", url=f"https://t.me/ZZ9Z5"),
+
+
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
