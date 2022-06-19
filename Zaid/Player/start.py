@@ -75,18 +75,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f'https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url='https://t.me/{USERNAME}?startgroup=true'),
+            ],
+            [
+                InlineKeyboardButton("قناެة اެݪمطۅࢪ", url=f"https://t.me/ZZ9Z5"),
+                InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
             ],
             [
                 InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="spam"),
             ],
-            
             [
-                InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
-                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u"),
-                InlineKeyboardButton("قناެة اެݪمطۅࢪ ❤️‍🔥", url=f"https://t.me/ZZ9Z5"),
-
-             
+                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/v_0_u),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -173,18 +172,17 @@ async def start(client: Client, message: Message):
     USERNAME = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f'https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url='https://t.me/{USERNAME}?startgroup=true'),
+            ],
+            [
+                InlineKeyboardButton("قناެة اެݪمطۅࢪ", url=f"https://t.me/ZZ9Z5"),
+                InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
             ],
             [
                 InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="spam"),
             ],
-            
             [
-                InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
-                InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/v_0_u"),
-                InlineKeyboardButton("قناެة اެݪمطۅࢪ", url=f"https://t.me/ZZ9Z5"),
-
-
+                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/v_0_u"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
