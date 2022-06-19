@@ -21,7 +21,7 @@ bttn = InlineKeyboardMarkup(
 
 
 bcl = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🗑 مسح", callback_data="cls")]]
+    [[InlineKeyboardButton("🗑 مسح", callback_data="close")]]
 )
 
 
@@ -50,7 +50,7 @@ async def skip(client, m: Message):
                     text="• تحكم", callback_data="cbmenu"
                 ),
                 InlineKeyboardButton(
-                    text="• مسح", callback_data="cls"
+                    text="• مسح", callback_data="close"
                 ),
             ]
         ]
@@ -90,7 +90,7 @@ async def skip(client, m: Message):
 
 
 @Client.on_message(
-    command(["ايقاف", f"كافي", "انهاء", f"دكافي", "اوكف"])
+    command(["ايقاف", f"كافي", "انهاء", f"ست", "اوكف"])
     & other_filters
 )
 @authorized_users_only
@@ -144,7 +144,7 @@ async def resume(client, m: Message):
 
 
 @Client.on_message(
-    command(["كتم", f"mute@{BOT_USERNAME}", "vmute"]) & other_filters
+    command(["ت", f"mute@{BOT_USERNAME}", "vmute"]) & other_filters
 )
 @authorized_users_only
 async def mute(client, m: Message):
@@ -279,7 +279,7 @@ async def cbunmute(_, query: CallbackQuery):
 
 
 @Client.on_message(
-    command(["اضبط", f"volume@{BOT_USERNAME}", "vol"]) & other_filters
+    command(["ض", f"volume@{BOT_USERNAME}", "vol"]) & other_filters
 )
 @authorized_users_only
 async def change_volume(client, m: Message):
