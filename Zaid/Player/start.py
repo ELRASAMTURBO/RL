@@ -30,7 +30,7 @@ USER_TEXT = """
 \u2022 ↫ .ت - اكتم صوت الاغنية المشغلة 
 \u2022 ↫ .ن - قم بدعوة المساعد الى مجموعتك 
 
- مطور السورس @xcxxu .
+ مطور السورس @TTTT0 .
 """
 
 SPAM_TEXT = """
@@ -49,7 +49,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/ZZ9Z5"),
+                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/TTTT0"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="users"),
             ],
             [
@@ -85,7 +85,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/v_0_u"),
+                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/TTTT0"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -182,7 +182,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/v_0_u"),
+                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/TTTT0"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
