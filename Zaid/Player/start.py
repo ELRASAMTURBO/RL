@@ -8,7 +8,9 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "🙅 **ههݪاެ حبب؟** \n\n **اެناެ اެقۅى بۅت ݪتشغيݪ اެݪاغاني ݪاެيفۅتك مميࢪ࣪اެتي ۅاެۅامࢪي 🧏🏻‍♂.** \n\n**↬ Dᥱ᥎ᥱᥣ᥆ρᥱr ხy ↬ [assistant](http://t.me/ZZ3Z6)**"
+HOME_TEXT = "🙅 **ههݪاެ حبب؟** \n\n **اެناެ اެقۅى بۅت ݪتشغيݪ اެݪاغاني ݪاެيفۅتك مميࢪ࣪اެتي ۅاެۅامࢪي 🧏🏻‍♂.** \n\n**⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡](t.me/E_L_R_A_S_A_M)
+⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’⚡](https://t.me/ELRSAM11)
+⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡](t.me/Mahmod777777)**"
 HELP_TEXT = """
   **- تابع الازرار في الاسفل ↓** 
 
@@ -30,7 +32,7 @@ USER_TEXT = """
 \u2022 ↫ .ت - اكتم صوت الاغنية المشغلة 
 \u2022 ↫ .ن - قم بدعوة المساعد الى مجموعتك 
 
- مطور السورس @TTTT0 .
+ [𝆥 𝙀ٍ𝙇ً𝙍ً𝘼ً𝙎𝘼ٌ𝙈¹ 𝙈َ𝙐ٍ𝙎ً𝙄ِ𝘾](@Mahmod777777)
 """
 
 SPAM_TEXT = """
@@ -39,7 +41,7 @@ SPAM_TEXT = """
 \u2022 1↫ أولا ، اضفني الى مجموعتك
 \u2022 2↫ بعد ذالك قم برفعي كمشرف واعطائي صلاحيات مثل باقي البشر.
 \u2022 3↫ بعد ذالك اكتب .تحديث بيانات البوت
-\u2022 3↫ اضف سيدي ومولاي في مجموعتك @ZZ3Z6 او اكتب .انضم لدعوة المساعد
+\u2022 3↫ اضف سيدي ومولاي في مجموعتك @Elrasam7 او اكتب .انضم لدعوة المساعد
 \u2022 4↫ اذ لم تستطيع اضافة المساعد او واجهت مشاكل تحدث مع رئيس الوزراء  .
 """
 
@@ -49,7 +51,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/TTTT0"),
+                InlineKeyboardButton("ألـمِـــــطوُر", url=f"https://t.me/Mahmod777777"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="users"),
             ],
             [
@@ -78,14 +80,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("قناެة اެݪمطۅࢪ", url=f"https://t.me/ZZ9Z5"),
+                InlineKeyboardButton("قّنـــــــٌآِِتً ألـمِـــــطوُر", url=f"https://t.me/EL_RASA"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
             ],
             [
                 InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/TTTT0"),
+                InlineKeyboardButton("ألـمِـــــطوُر", url=f"https://t.me/Mahmod777777"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -175,14 +177,14 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("قناެة اެݪمطۅࢪ", url=f"https://t.me/ZZ9Z5"),
+                InlineKeyboardButton("قّنـــــــٌآِِتً ألـمِـــــطوُر", url=f"https://t.me/EL_RASA"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
             ],
             [
                 InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("اެݪمِطَۅࢪ", url=f"https://t.me/TTTT0"),
+                InlineKeyboardButton("ألـمِـــــطوُر", url=f"https://t.me/Mahmod777777"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
