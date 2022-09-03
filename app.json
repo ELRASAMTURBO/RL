@@ -1,5 +1,5 @@
 {
-    "name": "Zaid Vc Player",
+    "name": "𝆥 𝙀ٍ𝙇ً𝙍ً𝘼ً𝙎𝘼ٌ𝙈¹ 𝙈َ𝙐ٍ𝙎ً𝙄ِ𝘾 .",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["Zaid", "Zaid-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
     "repository": "https://github.com/ITZ-ZAID/Zaid-Vc-Player",
@@ -12,27 +12,27 @@
         "ASSISTANT_NAME": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "Zaid_assistant"
+            "value": "Elrasam7"
         },
         "BOT_USERNAME": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": "Zaid2_Robot"
+            "value": "Elrasam11111bot"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": "6435225"
+            "value": "14940919"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
-            "value": "4e984ea35f854762dcde906dce426c2d"
+            "value": "a66bbdd32ce6fee0b3004a83a6f6e47b"
         },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": "TheSupportChat"
+            "value": "ELRSAM11"
         },
         "UPDATES_CHANNEL": {
             "description": "Your Updates Channel",
@@ -42,7 +42,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "1669178360"
+            "value": "2125600195"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
