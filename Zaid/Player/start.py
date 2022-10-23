@@ -34,7 +34,7 @@ USER_TEXT = """
 """
 
 SPAM_TEXT = """
-🙅 **طريقة التشغيل ، من المطور تايكر ↓** 
+🙅 **طريقة التشغيل ، من المطور جيمس ↓** 
 
 \u2022 1↫ أولا ، اضفني الى مجموعتك
 \u2022 2↫ بعد ذالك قم برفعي كمشرف واعطائي صلاحيات مثل باقي البشر.
@@ -78,7 +78,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("قّنـــــــٌآِِتً ألـمِـــــطوُر", url=f"https://t.me/EL_RASA"),
+                InlineKeyboardButton("قّنـــــــٌآِِتً ألـمِـــــطوُر", url=f"https://t.me/E_L_R_A_S_A_M"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
             ],
             [
@@ -175,7 +175,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("قّنـــــــٌآِِتً ألـمِـــــطوُر", url=f"https://t.me/EL_RASA"),
+                InlineKeyboardButton("قّنـــــــٌآِِتً ألـمِـــــطوُر", url=f"https://t.me/E_L_R_A_S_A_M"),
                 InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="help"),
             ],
             [
